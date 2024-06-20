@@ -37,3 +37,5 @@
 #define VACIO void
 #define VOLATIL volatile
 #define MIENTRAS while
+
+#define PRINCIPAL main
