@@ -39,3 +39,4 @@
 #define MIENTRAS while
 
 #define PRINCIPAL main
+#define O_SI_NO else if
