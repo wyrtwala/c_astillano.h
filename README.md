@@ -30,3 +30,13 @@ NUM2 PRINCIPAL(){
   DEVOLVER 0;                  /* return   */
 }
 ```
+
+```
+#include "c_astellano.h"
+#include "c_astellano_io.h"
+
+NUM2 PRINCIPAL(){
+  IMPRIMIR("Bienvenidos al Mundo de Programacion en C_astellano!!!\n");
+  DEVOLVER 0;
+}
+```
