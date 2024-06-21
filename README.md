@@ -20,7 +20,7 @@ NUM2 PRINCIPAL(){
   POR (NUM2 I = 0; I < 20; i++){/* for      */
     SI (tres == 4){             /* if       */
       CONTINUAR;                /* continue */
-    } O_SI (tres == 17) {       /* else if  */
+    } O_SI (tres == 17){       /* else if  */
       ROMPER;                   /* break    */
     } SI_NO {                   /* else     */
       DEVOLVER I;
