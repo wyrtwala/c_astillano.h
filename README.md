@@ -13,21 +13,21 @@ Cualquier comentario o corrección será bien recibida y agradecida.
 
 
 NUM2 PRINCIPAL(){
-  NUM2 uno = 1;                /* int      */
+  NUM2 uno = 1;                 /* int      */
   NUM2 dos = 2;
-  NUM4 tres = dos + uno;       /* long     */
+  NUM4 tres = dos + uno;        /* long     */
 
-  POR (NUM2 I = 0; I < 20){    /* for      */
-    SI (tres == 4){            /* if       */
-      CONTINUAR;               /* continue */
-    } O_SI (tres == 17) {      /* else if  */
-      ROMPER;                  /* break    */
-    } SI_NO {                  /* else     */
+  POR (NUM2 I = 0; I < 20; i++){/* for      */
+    SI (tres == 4){             /* if       */
+      CONTINUAR;                /* continue */
+    } O_SI (tres == 17) {       /* else if  */
+      ROMPER;                   /* break    */
+    } SI_NO {                   /* else     */
       DEVOLVER I;
     }
   }
   
-  DEVOLVER 0;                  /* return   */
+  DEVOLVER 0;                   /* return   */
 }
 ```
 
